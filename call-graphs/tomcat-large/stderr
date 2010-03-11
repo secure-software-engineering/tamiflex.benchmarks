@@ -1,0 +1,28 @@
+===== DaCapo 9.12 tomcat starting =====
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+[INFO] HttpMethodDirector - I/O exception (org.apache.commons.httpclient.NoHttpResponseException) caught when processing request: The server localhost failed to respond
+[INFO] HttpMethodDirector - Retrying request
+Digest validation failed for stderr.log, expecting 0xda39a3ee5e6b4b0d3255bfef95601890afd80709 found 0xb0981c0e40463b1238fb1e66b0cd466b539d4171
+===== DaCapo 9.12 tomcat FAILED =====
+Validation FAILED for tomcat large

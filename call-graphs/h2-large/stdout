@@ -1,0 +1,12 @@
+Using scaled threading model. 12 processors detected, 12 threads used to drive the workload, in a possible range of [1,64000]
+................................
+Completed 32000 transactions
+	Stock level .............  1277 ( 4.0%)
+	Order status by name ....   765 ( 2.4%)
+	Order status by ID ......   518 ( 1.6%)
+	Payment by name .........  8262 (25.8%)
+	Payment by ID ...........  5489 (17.2%)
+	Delivery schedule .......  1299 ( 4.1%)
+	New order ............... 14241 (44.5%)
+	New order rollback ......   149 ( 0.5%)
+Resetting database to initial state

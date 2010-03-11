@@ -1,0 +1,34 @@
+usage: DaCapo Benchmark suite
+ -c,--callback <callback>               Use class <callback> to bracket
+                                        benchmark runs
+ -C,--converge                          Allow benchmark times to converge
+                                        before timing
+ -d,--debug                             Verbose debugging information
+ -h,--help                              Print this help
+ -i,--information                       Display benchmark information
+    --ignore-validation                 Don't halt on validation failure
+ -k,--thread-factor <thread_per_cpu>    Set the number of threads per CPU
+                                        to drive the workload (mutually
+                                        exclusive with -t)
+ -l,--list-benchmarks                   List available benchmarks
+    --max-iterations <max_iterations>   Run a max of <max_iterations>
+                                        iterations (default 20)
+ -n,--iterations <iter>                 Run the benchmark <iter> times
+    --no-digest-output                  Turn off SHA1 digest of
+                                        stdout/stderr
+    --no-pre-iteration-gc               Skip performing System.gc() before
+                                        the start of each iteration
+    --no-validation                     Don't validate at all
+    --preserve                          Preserve output files (debug)
+ -r,--release-notes                     Print the release notes
+ -s,--size <SIZE>                       Size of input data
+    --scratch-directory <dir>           Specify an alternate scratch
+                                        directory <dir>
+ -t,--thread-count <thread_count>       Set the thread count to drive the
+                                        workload (mutually exclusive -k)
+ -v,--verbose                           Verbose output
+    --validation-report <report_file>   Report digests, line counts etc
+    --variance <pct>                    Target coefficient of variation
+                                        <pct> (default 3.0)
+    --window <window>                   Measure variance over <window>
+                                        runs (default 3)

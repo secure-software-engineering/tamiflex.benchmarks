@@ -1,0 +1,5 @@
+java.io.FilePermission$1: run()	()Ljava/lang/String;	()Ljava/lang/Object;
+java.util.jar.JarFile$1: nextElement()	()Ljava/util/jar/JarFile$JarFileEntry;	()Ljava/lang/Object;
+java.util.ResourceBundle$RBClassLoader$1: run()	()Ljava/util/ResourceBundle$RBClassLoader;	()Ljava/lang/Object;
+java.util.zip.ZipFile$2: nextElement()	()Ljava/util/zip/ZipEntry;	()Ljava/lang/Object;
+sun.security.action.GetPropertyAction: run()	()Ljava/lang/String;	()Ljava/lang/Object;
