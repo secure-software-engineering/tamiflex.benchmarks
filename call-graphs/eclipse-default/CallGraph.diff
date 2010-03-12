@@ -1,0 +1,156 @@
+java.lang.RuntimeException: Caught exception in parsing: com.sun.org.apache.xerces.internal.impl.io.MalformedByteSequenceException: Invalid byte 1 of 1-byte UTF-8 sequence.
+Iteration: 1000 Flow: 0.18026331002280138
+Iteration: 2000 Flow: 0.11269114764879229
+Iteration: 3000 Flow: 0.09680666411143024
+Iteration: 4000 Flow: 0.073660505059026
+Iteration: 5000 Flow: 0.05172694814779062
+Iteration: 6000 Flow: 0.043821408183819965
+Iteration: 7000 Flow: 0.03316156714638224
+Iteration: 8000 Flow: 0.025956898965987303
+Iteration: 9000 Flow: 0.01979269494903918
+Iteration: 10000 Flow: 0.015263123330886667
+Iteration: 11000 Flow: 0.010845009848266432
+Iteration: 12000 Flow: 0.009101195372541216
+Iteration: 13000 Flow: 0.006755226880577358
+Iteration: 14000 Flow: 0.005167635838094797
+Iteration: 15000 Flow: 0.00419656455127522
+Iteration: 16000 Flow: 0.0031361326465512503
+Iteration: 17000 Flow: 0.002462792877329682
+Iteration: 18000 Flow: 0.0019268025612696445
+Iteration: 19000 Flow: 0.0014367141693757413
+Iteration: 20000 Flow: 0.0011275961633368603
+===========================================================================
+Missing entry points in rechenknecht.cased.de/eclipse-default/CallGraph-static.gxl.gz:
+===========================================================================
+0.0 java.lang.UNIXProcess$1$1: run()
+===========================================================================
+Missing call edges in rechenknecht.cased.de/eclipse-default/CallGraph-static.gxl.gz:
+===========================================================================
+0.0 org.eclipse.core.internal.registry.osgi.Activator: start(Lorg/osgi/framework/BundleContext;) ===> java.lang.ClassLoader: loadClassInternal(Ljava/lang/String;)
+0.00610265169171414 java.io.File: <init>(Ljava/lang/String;Ljava/lang/String;) ===> java.io.UnixFileSystem: resolve(Ljava/lang/String;Ljava/lang/String;)
+0.06503184488875818 java.io.File: <init>(Ljava/io/File;Ljava/lang/String;) ===> java.io.UnixFileSystem: prefixLength(Ljava/lang/String;)
+0.109375 java.lang.StringCoding$StringEncoder: <init>(Ljava/nio/charset/Charset;Ljava/lang/String;) ===> sun.nio.cs.UTF_8: newEncoder()
+0.125 org.eclipse.jdt.internal.core.hierarchy.HierarchyBinaryType: <init>(I[C[C[C[[CC) ===> org.eclipse.jdt.internal.compiler.env.IBinaryType: <clinit>()
+0.19991721263607337 java.io.File: <init>(Ljava/lang/String;) ===> java.io.UnixFileSystem: prefixLength(Ljava/lang/String;)
+0.20507812499425 java.lang.StringCoding$StringDecoder: <init>(Ljava/nio/charset/Charset;Ljava/lang/String;) ===> sun.nio.cs.UTF_8: newDecoder()
+0.20874023437521874 sun.nio.cs.StreamDecoder: <init>(Ljava/io/InputStream;Ljava/lang/Object;Ljava/nio/charset/Charset;) ===> sun.nio.cs.UTF_8: newDecoder()
+0.220703124996875 java.lang.StringCoding$StringDecoder: charsetName() ===> sun.nio.cs.UTF_8: historicalName()
+0.22259140181322162 java.io.File: <init>(Ljava/lang/String;Ljava/lang/String;) ===> java.io.UnixFileSystem: prefixLength(Ljava/lang/String;)
+0.2343749999919531 java.lang.ref.Finalizer: runFinalizer() ===> java.lang.ref.Finalizer: hasBeenFinalized()
+0.2343749999925 java.lang.ref.Finalizer: runFinalizer() ===> java.lang.ref.Finalizer: remove()
+0.2343749999955 java.lang.ref.Reference$ReferenceHandler: run() ===> java.lang.ref.ReferenceQueue: enqueue(Ljava/lang/ref/Reference;)
+0.23437499999825 java.lang.Object: <init>() ===> java.lang.ref.Finalizer: register(Ljava/lang/Object;)
+0.234374999998375 java.nio.charset.CharsetEncoder: encode(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z) ===> sun.nio.cs.UTF_8$Encoder: encodeLoop(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)
+0.2572288513028557 java.io.File: checkAndCreate(Ljava/lang/String;Ljava/lang/SecurityManager;) ===> java.io.UnixFileSystem: createFileExclusively(Ljava/lang/String;)
+0.29053026288241385 java.io.File: <init>(Ljava/io/File;Ljava/lang/String;) ===> java.io.UnixFileSystem: normalize(Ljava/lang/String;)
+0.29397583006826367 java.io.File: createNewFile() ===> java.io.UnixFileSystem: createFileExclusively(Ljava/lang/String;)
+0.3004944907675554 java.io.File: getCanonicalPath() ===> java.io.UnixFileSystem: resolve(Ljava/io/File;)
+0.3300781249921406 java.util.LinkedHashMap: addEntry(ILjava/lang/Object;Ljava/lang/Object;I) ===> java.io.ExpiringCache$1: removeEldestEntry(Ljava/util/Map$Entry;)
+0.33007812499248435 java.io.FileInputStream: open(Ljava/lang/String;) ===> java.io.FileNotFoundException: <init>(Ljava/lang/String;Ljava/lang/String;)
+0.3532753465456788 java.io.File: isHidden() ===> java.io.UnixFileSystem: getBooleanAttributes(Ljava/io/File;)
+0.3803910695194778 java.io.File: isFile() ===> java.io.UnixFileSystem: getBooleanAttributes(Ljava/io/File;)
+0.3836270448739031 java.io.File: <init>(Ljava/io/File;Ljava/lang/String;) ===> java.io.UnixFileSystem: resolve(Ljava/lang/String;Ljava/lang/String;)
+0.40806021600398756 java.io.File: isDirectory() ===> java.io.UnixFileSystem: getBooleanAttributes(Ljava/io/File;)
+0.5047870898164989 java.io.File: exists() ===> java.io.UnixFileSystem: getBooleanAttributes(Ljava/io/File;)
+0.5114947664301075 java.io.File: getCanonicalFile() ===> java.io.UnixFileSystem: prefixLength(Ljava/lang/String;)
+0.5124413424082551 java.io.File: <init>(Ljava/lang/String;Ljava/lang/String;) ===> java.io.UnixFileSystem: normalize(Ljava/lang/String;)
+0.5226601035070472 java.io.File: <init>(Ljava/lang/String;) ===> java.io.UnixFileSystem: normalize(Ljava/lang/String;)
+0.6073040961459788 java.io.File: lastModified() ===> java.io.UnixFileSystem: getLastModifiedTime(Ljava/io/File;)
+0.6073040961724421 java.io.File: length() ===> java.io.UnixFileSystem: getLength(Ljava/io/File;)
+0.6093055292397308 java.io.File: <init>(Ljava/lang/String;Ljava/io/File;) ===> java.io.UnixFileSystem: resolve(Ljava/lang/String;Ljava/lang/String;)
+0.6716657185040071 java.io.File$LazyInitialization: temporaryDirectory() ===> java.io.UnixFileSystem: normalize(Ljava/lang/String;)
+0.7369244237066579 java.io.File: compareTo(Ljava/io/File;) ===> java.io.UnixFileSystem: compare(Ljava/io/File;Ljava/io/File;)
+0.7940939865213914 java.io.File: getAbsolutePath() ===> java.io.UnixFileSystem: resolve(Ljava/io/File;)
+0.8650661858056904 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor1: newInstance([Ljava/lang/Object;)
+0.8650661858088493 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor6: newInstance([Ljava/lang/Object;)
+0.8650661858125426 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor5: newInstance([Ljava/lang/Object;)
+0.8650661858154259 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor3: newInstance([Ljava/lang/Object;)
+0.8650661858217135 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor4: newInstance([Ljava/lang/Object;)
+0.8650661858369028 sun.reflect.DelegatingConstructorAccessorImpl: newInstance([Ljava/lang/Object;) ===> sun.reflect.GeneratedConstructorAccessor2: newInstance([Ljava/lang/Object;)
+0.9878026363551217 sun.reflect.NativeConstructorAccessorImpl: newInstance0(Ljava/lang/reflect/Constructor;[Ljava/lang/Object;) ===> org.eclipse.core.internal.content.TextContentDescriber: <clinit>()
+1.9009078570051077 java.io.File: isAbsolute() ===> java.io.UnixFileSystem: isAbsolute(Ljava/io/File;)
+9.97654263848882 java.io.File: getCanonicalPath() ===> java.io.UnixFileSystem: canonicalize(Ljava/lang/String;)
+12.930386036596394 java.lang.ClassLoader: loadLibrary(Ljava/lang/Class;Ljava/lang/String;Z) ===> org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader: findLibrary(Ljava/lang/String;)
+===========================================================================
+Number of reachable methods missing in rechenknecht.cased.de/eclipse-default/CallGraph-static.gxl.gz: 80
+===========================================================================
+java.io.ExpiringCache$1: removeEldestEntry(Ljava/util/Map$Entry;)
+java.io.ExpiringCache$Entry: <init>(JLjava/lang/String;)
+java.io.ExpiringCache$Entry: timestamp()
+java.io.ExpiringCache$Entry: val()
+java.io.ExpiringCache: access$000(Ljava/io/ExpiringCache;)
+java.io.ExpiringCache: cleanup()
+java.io.ExpiringCache: clear()
+java.io.ExpiringCache: entryFor(Ljava/lang/String;)
+java.io.ExpiringCache: get(Ljava/lang/String;)
+java.io.ExpiringCache: put(Ljava/lang/String;Ljava/lang/String;)
+java.io.File: getPrefixLength()
+java.io.FileNotFoundException: <init>(Ljava/lang/String;Ljava/lang/String;)
+java.io.UnixFileSystem: canonicalize(Ljava/lang/String;)
+java.io.UnixFileSystem: canonicalize0(Ljava/lang/String;)
+java.io.UnixFileSystem: checkAccess(Ljava/io/File;I)
+java.io.UnixFileSystem: compare(Ljava/io/File;Ljava/io/File;)
+java.io.UnixFileSystem: createDirectory(Ljava/io/File;)
+java.io.UnixFileSystem: createFileExclusively(Ljava/lang/String;)
+java.io.UnixFileSystem: delete(Ljava/io/File;)
+java.io.UnixFileSystem: delete0(Ljava/io/File;)
+java.io.UnixFileSystem: getBooleanAttributes(Ljava/io/File;)
+java.io.UnixFileSystem: getBooleanAttributes0(Ljava/io/File;)
+java.io.UnixFileSystem: getLastModifiedTime(Ljava/io/File;)
+java.io.UnixFileSystem: getLength(Ljava/io/File;)
+java.io.UnixFileSystem: hashCode(Ljava/io/File;)
+java.io.UnixFileSystem: isAbsolute(Ljava/io/File;)
+java.io.UnixFileSystem: list(Ljava/io/File;)
+java.io.UnixFileSystem: normalize(Ljava/lang/String;)
+java.io.UnixFileSystem: normalize(Ljava/lang/String;II)
+java.io.UnixFileSystem: parentOrNull(Ljava/lang/String;)
+java.io.UnixFileSystem: prefixLength(Ljava/lang/String;)
+java.io.UnixFileSystem: rename(Ljava/io/File;Ljava/io/File;)
+java.io.UnixFileSystem: rename0(Ljava/io/File;Ljava/io/File;)
+java.io.UnixFileSystem: resolve(Ljava/io/File;)
+java.io.UnixFileSystem: resolve(Ljava/lang/String;Ljava/lang/String;)
+java.io.UnixFileSystem: setLastModifiedTime(Ljava/io/File;J)
+java.lang.Class: setSigners([Ljava/lang/Object;)
+java.lang.ClassLoader$NativeLibrary: getFromClass()
+java.lang.ref.FinalReference: <init>(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)
+java.lang.ref.Finalizer: <init>(Ljava/lang/Object;)
+java.lang.ref.Finalizer: add()
+java.lang.ref.Finalizer: register(Ljava/lang/Object;)
+org.eclipse.core.internal.content.TextContentDescriber: <clinit>()
+org.eclipse.core.internal.watson.DefaultElementComparator: <init>()
+org.eclipse.core.internal.watson.DefaultElementComparator: compare(Ljava/lang/Object;Ljava/lang/Object;)
+org.eclipse.core.internal.watson.DefaultElementComparator: testEquality(Ljava/lang/Object;Ljava/lang/Object;)
+org.eclipse.core.runtime.internal.adaptor.EclipseClassLoadingHook: findLibrary(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)
+org.eclipse.core.runtime.internal.adaptor.EclipseClassLoadingHook: searchVariants(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)
+org.eclipse.jdt.internal.compiler.env.IBinaryType: <clinit>()
+org.eclipse.osgi.baseadaptor.BaseData: findLibrary(Ljava/lang/String;)
+org.eclipse.osgi.baseadaptor.loader.ClasspathManager: findLibrary(Ljava/lang/String;)
+org.eclipse.osgi.internal.baseadaptor.BaseClassLoadingHook: findLibrary(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)
+org.eclipse.osgi.internal.baseadaptor.BaseClassLoadingHook: findNativePath(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)
+org.eclipse.osgi.internal.baseadaptor.BaseClassLoadingHook: getNativePaths(Lorg/eclipse/osgi/baseadaptor/BaseData;)
+org.eclipse.osgi.internal.baseadaptor.BaseClassLoadingHook: mapLibraryNames(Ljava/lang/String;)
+org.eclipse.osgi.internal.baseadaptor.BaseStorageHook: getNativePaths()
+org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader: findLibrary(Ljava/lang/String;)
+org.eclipse.osgi.internal.composite.CompositeConfigurator: findLibrary(Lorg/eclipse/osgi/baseadaptor/BaseData;Ljava/lang/String;)
+org.eclipse.osgi.internal.loader.BundleLoader: findLibrary(Ljava/lang/String;)
+org.eclipse.osgi.internal.loader.BundleLoader: findLocalLibrary(Ljava/lang/String;)
+sun.nio.cs.UTF_8$Decoder: <init>(Ljava/nio/charset/Charset;)
+sun.nio.cs.UTF_8$Decoder: <init>(Ljava/nio/charset/Charset;Lsun/nio/cs/UTF_8$1;)
+sun.nio.cs.UTF_8$Decoder: decodeArrayLoop(Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)
+sun.nio.cs.UTF_8$Decoder: decodeLoop(Ljava/nio/ByteBuffer;Ljava/nio/CharBuffer;)
+sun.nio.cs.UTF_8$Decoder: xflow(Ljava/nio/Buffer;IILjava/nio/Buffer;II)
+sun.nio.cs.UTF_8$Encoder: <init>(Ljava/nio/charset/Charset;)
+sun.nio.cs.UTF_8$Encoder: <init>(Ljava/nio/charset/Charset;Lsun/nio/cs/UTF_8$1;)
+sun.nio.cs.UTF_8$Encoder: encodeArrayLoop(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)
+sun.nio.cs.UTF_8$Encoder: encodeLoop(Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)
+sun.nio.cs.UTF_8$Encoder: isLegalReplacement([B)
+sun.nio.cs.UTF_8: historicalName()
+sun.nio.cs.UTF_8: newDecoder()
+sun.nio.cs.UTF_8: newEncoder()
+sun.nio.cs.UTF_8: updatePositions(Ljava/nio/Buffer;ILjava/nio/Buffer;I)
+sun.reflect.GeneratedConstructorAccessor1: newInstance([Ljava/lang/Object;)
+sun.reflect.GeneratedConstructorAccessor2: newInstance([Ljava/lang/Object;)
+sun.reflect.GeneratedConstructorAccessor3: newInstance([Ljava/lang/Object;)
+sun.reflect.GeneratedConstructorAccessor4: newInstance([Ljava/lang/Object;)
+sun.reflect.GeneratedConstructorAccessor5: newInstance([Ljava/lang/Object;)
+sun.reflect.GeneratedConstructorAccessor6: newInstance([Ljava/lang/Object;)
