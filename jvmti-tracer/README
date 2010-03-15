@@ -3,7 +3,7 @@
 On Linux systems with gcc(1) installed, the JVMTI agent can be easily compiled into
 a shared library:
 
-> gcc -shared -o tracer.so -I${JAVA_HOME}/../include -I${JAVA_HOME}/../include/linux tracer.c
+> gcc -shared -o target/tracer.so -I${JAVA_HOME}/include -I${JAVA_HOME}/include/linux src/tracer.c
 
 On other Unix-like systems, only the second directory containing Linux-specific
 header files should need to be adapted.
@@ -13,7 +13,7 @@ header files should need to be adapted.
 The Tracer writes the method trace into a file, which it opens at VM start-up.
 This file need to be passed to the JVMTI agent as a command line argument:
 
-> java -agentpath:./tracer.so=<file>
+> java -agentpath:./target/tracer.so=<file>
 
 The resulting file contains tab-separated records easily processed with awk(1).
 Each entry starts with "CALL", followed by one triple of type descriptor, method
@@ -21,3 +21,23 @@ name, and method descriptor. This triple designates the called method. It is
 followed by either a second triple, designating the calling method, or the
 string "ROOT", which indicates that the method has been called from outside
 Java-space.
+
+* Building the GXL Converter (Trace2GXL)
+
+Building the converter which converts method traces to a GXL representation of
+the dynamic call graph is easy; just make sure that probe.jar is on the
+classpath.
+
+> javac -classpath probe.jar -d target src/Trace2GXL.java
+
+* Converting Traces to GXL
+
+Trace2GXL acts a filter: it consumes method traces on standard input and, once
+the input is exhausted, outputs a GXL representation of the dynamic call graph to
+standard output. Any warnings are written to the error output stream. (At the
+moment, Trace2GXL warns about methods with co-variant return types which cannot
+be accurately expressed by ProBe, the library generating the GXL
+representation.)
+
+> java -cp probe.jar:gxl.jar:./target Trace2GXL
+
