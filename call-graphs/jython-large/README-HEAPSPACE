@@ -1,0 +1,3 @@
+We could not diff the static and the dynamic call graph for this
+configuration because the diff tool required more than 16GB heap space
+but we did not have more available.
