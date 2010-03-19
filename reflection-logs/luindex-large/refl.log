@@ -1,0 +1,11 @@
+Class.forName;java.util.CurrencyData;java.util.Currency$1.run;128;
+Class.newInstance;sun.text.resources.FormatData;java.util.ResourceBundle$Control.newBundle;2389;
+Class.newInstance;sun.text.resources.FormatData_en;java.util.ResourceBundle$Control.newBundle;2389;
+Class.newInstance;sun.text.resources.FormatData_en_US;java.util.ResourceBundle$Control.newBundle;2389;
+Class.newInstance;sun.util.resources.CurrencyNames;java.util.ResourceBundle$Control.newBundle;2389;
+Class.newInstance;sun.util.resources.CurrencyNames_en_US;java.util.ResourceBundle$Control.newBundle;2389;
+Constructor.newInstance;<sun.text.resources.FormatData: void <init>()>;java.util.ResourceBundle$Control.newBundle;2389;
+Constructor.newInstance;<sun.text.resources.FormatData_en: void <init>()>;java.util.ResourceBundle$Control.newBundle;2389;
+Constructor.newInstance;<sun.text.resources.FormatData_en_US: void <init>()>;java.util.ResourceBundle$Control.newBundle;2389;
+Constructor.newInstance;<sun.util.resources.CurrencyNames: void <init>()>;java.util.ResourceBundle$Control.newBundle;2389;
+Constructor.newInstance;<sun.util.resources.CurrencyNames_en_US: void <init>()>;java.util.ResourceBundle$Control.newBundle;2389;
