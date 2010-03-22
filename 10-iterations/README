@@ -1,0 +1,2 @@
+This directory contains the log files that we gathered over 10 iterations of each benchmark configuration.
+You can compare them simply using "diff".
