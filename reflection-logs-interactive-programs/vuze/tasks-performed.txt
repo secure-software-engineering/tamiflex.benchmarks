@@ -1,0 +1,117 @@
+Download file,
+1-
+I download two short vedio,and a long one. (the last by using the research box)
+
+2-
+I make a research then I download, and I choose an another file to download.
+
+
+3-
+trying to ignor the fedback, so it was crached.so it creat a yml file but not a log one.
+
+4-
+chossen a vedio, from a list and download.
+Clique in the RSS logo, but ignoring the login.
+
+5-
+chossen a vedio, from a list and download.
+Adding some tools in the vertical menu.
+Using the Irc channel providing from Vuse. For that we need a configuration for the name.
+
+6-
+Trying to use the IRC channel.
+Ignoring the Rss loging
+
+7-
+Trying to use the IRC channel.
+trying to open the Azureuse http://www.azureuswiki.com/ guide.
+
+8-
+Trying to use the IRC channel.
+trying to open the Azureus guide http://www.azureuswiki.com/. and navigate into the it.
+
+9-
+Trying to use the IRC channel.
+trying to open the Vuse guide http://www.vuze.com/support/. and navigate into the it.
+
+9-
+Trying to use the IRC channel.
+trying to open the http://www.azureuswiki.com/ guide. and navigate into the it.
+
+10-
+Trying to use the IRC channel.
+http://www.snipurl.com/AzureusDE
+
+11-
+making a reseach using the research box.
+then downloading the file, the file doesn't finish the load.
+
+12-
+just navigating between the different list of menu without doing anything.
+
+13-
+navigating in the menu, and downloading a video.
+
+14-
+Downloading a video.
+Trying to use the IRC channel.
+
+15-
+making research,
+and the Vuze is contunuig an interrepted download.
+cliquing in the Comunity wiki, in the menu
+cliquing on comunity forums,
+cliquing on comunity blogs,
+Cliquing on FAQ
+
+16-
+cliquing in the Comunity wiki, in the menu
+cliquing on comunity forums,
+cliquing on comunity blogs,
+Cliquing on FAQ
+making a research, downloading from researched list.
+interraoting download.
+
+17-
+Modifing the fenester view, using "Ansicht" in the menu list.
+pressing offnen Vesu datei.
+The vezu is downloading the last interrapted download.
+cliquing on the Irc option.
+
+18-
+using the IRC.
+using the research box.
+downloading file after looking on it
+crashing the download.
+
+19-
+the last download will start automatically
+chossing oöfnen the torrent datei from the menu
+
+20-
+using the research box,
+downloading a vedio after looking, 
+cliquing stoping Datei-> Ubertragungen->alles stopen
+then cliquing stoping Datei-> Ubertragungen->alles starting
+then cliquing stoping Datei-> neu start
+
+21-
+the last download will start automatically
+cliquing stoping Datei-> Ubertragungen->pausieren
+cliquing stoping Datei-> Ubertragungen->stopen
+cliquing stoping Datei-> Ubertragungen->forsetzen
+
+22-
+choosing a video to download.
+then cliquing Hilfe->suche nach Aktualisiren
+then cliquing Hilfe->hilfe und support
+
+23-
+choosing a video to download.
+then cliquing Hilfe->suche nach Aktualisiren
+then cliquing Hilfe->hilfe und support
+
+24-
+making two downloads at the same time.
+
+

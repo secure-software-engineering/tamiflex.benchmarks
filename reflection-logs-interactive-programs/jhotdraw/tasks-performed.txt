@@ -1,0 +1,95 @@
+1-
+I manipulate all the fonctionalities.
+
+2-
+drawing a Rechtek, a triangle
+using the polygone tools, linielfarbe, füllfarbe,
+linielstäke, linielmuster, linien-plazirung, stroke joint
+
+3-
+drawing a squerre,
+using inielfarbe, füllfarbe,
+linielstäke, linielmuster,
+using the polygone tools,
+
+4-
+drawing, cercle, diament, dreieck.
+
+5-
+drawing a pfeil,
+and manipulating its extrmity.
+
+6-
+using the polygone tools.
+
+7-
+drawing a Rechtek, abgerundet Rechtek, Elipse.
+
+8-
+opning and closing
+
+9-
+skizzieren
+
+10-
+Abgerundet Rechtek, diament, Linie,
+Changind the color and the liniestäken, liniemaster, Linien-plaziren.
+skizzieren
+
+11-
+drawing a Rechtek,diament, dreieck. And manipulating them.
+
+12-
+skizzieren, changing the color using the color's cercle.
+changing the liniestäken
+
+13-
+writing a text, draing a dreieck, skizzieren.
+
+14-
+Drawing diament, dreieck, diament, Rechteck, pfeil, elipse.
+
+15-
+drawing pfeil, elipse, dreieck.
+Puting a full screen.
+using polygone and manipulating it for a while.
+
+16-
+dreieck skizzieren polygone.
+
+17-
+open a piture.
+writing a text.
+
+18-
+drawing many pfeil, Diament.
+cliquing on the Icone:
+in der hintergrund.
+
+19-
+drawing many pfeil
+Changind the color and the liniestäken, liniemaster, Linien-plaziren.
+
+20-
+writing a test, changing the font, bold italic underline.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

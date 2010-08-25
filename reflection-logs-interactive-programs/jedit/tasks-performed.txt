@@ -1,0 +1,314 @@
+1-
+creating new frame vertical an horizantal, deleting frames, open new view
+previous, precidious, 
+cut, paste, copy paste.
+Marcos c -> include Guard
+Marcos java -> includ constructor
+view new -> plan view
+using the reseach tool
+closing (pop window -> discard selection)
+
+2-
+dealing with the same tools:
+new frames, deleting frams, new view.
+Cut, paste, copy, copy paste;
+previous, precidious, 
+closing (pop window -> discard selection)
+
+3-
+using marcos,
+text-> prefixe, suffixe, adding date, next char, adding tag.
+File -> new file,
+Making frames,
+closing  (pop window -> discard selection)
+
+4-
+using marcos, 
+Java-> get class name
+Java -> save Java file
+java -> Make get and set methode
+interface -> decrease font size
+interface -> increase font size
+interface -> increase font size
+closing
+
+5-
+using marcos, 
+Editing -> Duplicate line above
+file -> browse buffer directory
+making some frame,
+eleminating all the frame,
+new view
+niew file
+
+6-
+using cut, paste previous and precedent Icones.
+
+7-
+using Marcos,
+Java -> create a constrauctor
+Java -> get the class name
+Java -> get the package name
+Java -> Java save file
+adding a variable i in the programm
+Java -> Make get and set methode 
+Java -> preview Javadoc of current buffer (asking for installing the consol plugin)
+plugin -> plugin manager -> install -> checking consol ->install
+Java -> preview Javadoc of current buffer (asking for installing the infoviewer)
+plugin -> plugin manager -> install -> checking infviewer ->install
+Java -> preview Javadoc of current buffer (msg current buffer does not appear to be a java file
+
+8-
+Java -> preview Javadoc of current buffer (msg current buffer does not appear to be a java file)
+
+9-
+Java -> preview Javadoc of current buffer (msg current buffer does not appear to be a java file)
+
+10-
+using Macros,
+Manipulating all the option in the Editing one by one.
+
+11-
+using Macros,
+Manipulating all the option in Clipboard.
+and using the paste icone for pasting
+
+12-
+open and closing
+
+13-
+using Macros,
+Manipulating all the option in Files
+save a selected file into disk
+
+14-
+using Macros,
+Manipulating some options in Files->Browse Buffer directory
+save a selected file into disk
+Files->Delete current
+
+15-
+using Macros,
+Manipulating all options in Interface and Msc
+
+16-
+using Macros,
+Manipulating all options in proproties
+opnening a file, descard all selection
+
+17-
+using Macros,
+Manipulating all options in proproties and text.
+proproties-> creat plugins annoucement need a spacfique tratment 
+So I tried to folow it but!!!
+I make: Plugins-> info viewer -> info Viewer
+Plugins-> info viewer -> help Viewer
+pluguin -> quique notepad-> writing somtg, opnen a file, print it in the page (icon situed in the top in right)
+Marcos -> run other marcos-> choosing a file (msg erreur apear)
+
+18-
+using Folding, all the option
+using Markers, all the option
+
+19-
+Using Utilities,
+all in favorite,
+Current Directory,
+jEdit Home Directory,
+Settings directory,
+Troubelshouting -> I/O progress
+I/O (in top left) -> Dock in top
+Troubelshouting -> key board tester.
+
+20-
+Macors -> java -> creat constructor
+Troubelshouting -> I/O progress
+I/O (in top left) -> Dock in top
+Macors -> c -> Include Guard
+
+21-
+search -> find previous
+File -> close
+File -> global close
+
+22-
+Folding -> using all the options in Folding
+search -> search in open folder
+writing a word dosn't exist -> find
+writing a word existing in the file.-> find (you should check all buffer so that a window will appear) -> cliquing in the cleaning bbotton (top right) -> write a word to replace all -> replace all
+writing a word existing in the file.-> find -> current button (it will select the worl in the current text).
+writing a word existing in the file.-> find -> selection (a window will appear)
+
+23-
+Utilities -> Global options -> tool bar -> (+) in the bottom left -> clic in add explicite -> ok -> selection the Icon added -> (-) near to (+)
+closing the global options window.
+Open global option windo -> add activity log -> moving it up and down -> ok -closing the global options window.
+Open global option windo -> selection activity log -> deleting it (-)
+
+24-
+view -> plan View -> writing test in the new opned window -> closing the window -> view -> close view -> discard.
+
+25-
+oping a folder using the opening Icon.
+view -> go to previous buffer
+view -> go to next buffer
+view -> go to recent buffer
+view -> Focus buffer switcher
+view -> check line number
+view ->  check off all the other option -> then check in all the options
+view -> using all the option in scolling
+view -> using all the option in splitting
+view -> using all the option in Docking (when I have to save the current area, I put a name in the appeared pop up )
+
+26-
+cliquig in Unsplit
+opening a file
+using allthe options in search tool
+
+27-
+writing some text.
+Marking two sentence,
+copie and paste texte from an other file.
+Using previous and next marks lines.
+using options in Marcos->text: prefix, duplicate line
+Viewing all the market lines, deletind the marks (using the delete marks Icon in the top in right)
+closing the file, Discard selection
+
+28-
+installing new plug-ins
+
+29-
+installing new plug-ins
+
+30-
+installing new plug-ins
+
+31-
+installing new plug-ins
+
+32-
+installing new plug-ins
+
+33-
+paste a text,
+search -> find (find buttom)
+Marks ->add/move marks
+search -> find next 
+Marks ->add/move marks
+search -> find next 
+Marks ->add/move marks
+Marks -> veiw marks -> adding one -> deleting all
+
+34-
+paste a text,
+Manipulating folder options.
+Utilities -> action Bar ->goto-markers (but there isn't any marker)
+markers -> add/move markers.
+Utilities -> action Bar ->goto-markers
+
+35-
+chaging the file (unsing the buton cotaning a play flech having the direction to the bottom.)
+copy and paste one word.
+Utilities -> repeat last action.
+Utilities -> Troubelshouting -> keybordtester (a window will aprea) -> writing salut -> clear -> cancel
+Utilities -> Troubelshouting -> Memoty statut
+Utilities -> Troubelshouting -> keybordtester (a window will aprea) -> writing salut -> clear -> writing hh -> cancel
+
+36-
+changing the file (red buttom -playhaving direction to the bottom-)
+split Icon
+Unsplit icon
+new view Icon
+
+37-
+new file
+paste a text 
+utilities -> text -> duplicate lines
+utilities -> text -> duplicate lines
+utilities -> text -> duplicate lines
+Markes -> add/move markers
+Edit -> Undo
+Edit -> paste
+Edit -> word count
+Edit -> complete word
+Edit -> expand abbrevation (new window will open, fill in the text box)
+Edit -> go to line 3
+Edit -> go to line 1
+writing some text in line 4
+Edit -> go to line 1 writing some text
+
+38-
+paste a text 
+paste a text 
+Edit source -> range comment
+Edit source -> line comment
+
+39-
+paste text
+Edit -> using all the options in Text.
+
+40-
+paste text
+Edit -> using all the options in Indent.
+
+41-
+paste text
+cut/ paste
+
+42-
+writing, cut, past, copy, new frame, one framne, new view.
+close the new view,
+macros, java -> new constractor.
+
+43-
+writing, cut, past, copy, new frame, one framne,
+
+44-
+going the patern,
+Markers -> view markers -> (cliquing on +) -> deleting all the markers.
+
+45-
+Markers -> view markers
+marcos -> text -> add prefixe.
+
+46-
+writing text.
+Marcos -> interface -> decrease font
+Marcos -> interface -> ToggelBotton
+Marcos -> interface -> reset interface
+
+47-
+Folding -> add specefik fold. (prompt message)
+
+48-
+closing after a time without doing any thing.
+
+49-
+writing a text.
+using raccourci to cut it.
+Closing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

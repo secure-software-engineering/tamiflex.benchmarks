@@ -1,0 +1,75 @@
+1-
+Manipulate all the system fonctionality
+
+2-
+navigate in the menu list.
+
+3-
+making a wall,
+add a finester,
+chaging the farbe and textuer of the fenester,
+Changing the farber of the wall.
+
+4-
+3D Ansicht -> Virtuel Begehen und manipulation the virtual view
+Plan-> HintergrundBild importieret
+berbeiten -> undo, wierderholen, Ausschneiden.
+Adding some mobil.
+Cuting and paste, Rotate the object.
+zoom in in the work frame, zoom out.
+Use an imoticone: aus dem kaltalogue ausgevähltmobile
+
+5-
+Adding some mobil.
+zoom in in the work frame,
+
+6-
+Adding some mobil.
+Rotating, then modifiying the order of the object in the table.
+
+7-
+Making wall,
+Adding fenester,
+adding mobil, clavier, ferensehen, sosel
+Adding Gardienenstange, modifying its dimension.
+Adding Gardien.
+rotating the hole projet with zoom in and out.
+Making picture using the option, Erstelle and changing the proposion anweden.
+Speichen one picture.
+
+8-
+the systeme crash.
+
+9-
+Making a wall, addind fenester, Tür,
+adding a bad.
+Making a Esrtelle.
+
+10-
+adding mobilie.
+Mobiliar -> Mobiliar importieren (follow the instraction but we have any mobilia to import).
+Mobiliar -> Mobiliar textuar importieren.
+Mobiliar -> Speilting Anzeigen -> Höhe
+
+11-
+Mobiliar -> Speilting Anzeigen -> Horizantal lage
+Mobiliar -> Speilting Anzeigen -> Horizantal lage
+
+12-
+writing a text, changing its font, making bigger, italic, bold.
+Changing the palce using wäht objekt im Plan aus, Ansicht Verschieben.
+Making a wall.
+
+13-
+writing a text, changing its font, making bigger, italic, bold.
+Changing the palce using wäht objekt im Plan aus, Ansicht Verschieben.
+Making a wall.
+
+14-
+Putting some mobiliar, and then making a wall.
+
+15-
+adding some mobiliar, making a picture (changing the pixel number, using ertsellen)
+Schlissen onhe speichen.
+
+

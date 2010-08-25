@@ -1,0 +1,209 @@
+1-
+ConstantClass.rb
+
+2-
+delete in ConstantClass.rb 
+     puts "Value of first constant = #{Constant3}"
+
+3-
+delete in ConstantClass.rb 
+  Constant3 = 30
+4-
+JRubyTable.rb
+
+5-
+Making a change in this line in JRubyTable.rb
+puts "#{n} * #{i} = #{n.to_ * i.to_i}"
+
+6-
+JRubyExample1 
+
+7-
+monitor -jar jruby-complete-1.5.0.RC2.jar JRubyExample1.rb ConstantClass
+
+8-
+monitor -jar jruby-complete-1.5.0.RC2.jar JRubyExample1.rb ConstantClass.rb
+
+9-
+monitor -jar jruby-complete-1.5.0.RC2.jar JRubyExample1.class
+:1: use `java_import' to load normal Java classes (LoadError)
+
+10-
+monitor -jar jruby-complete-1.5.0.RC2.jar myruby.rb
+
+11-
+monitor -jar jruby-complete-1.5.0.RC2.jar myruby.rb
+
+12-
+JRubyCaseExample.rb
+chossing 4
+
+13-
+JRubyCaseExample.rb
+choosing 1.
+
+14-
+JRubyCaseExample.rb
+choosing 2
+
+15-
+JRubyCaseExample.rb
+choosing 3
+
+16-
+JRubyCaseExample.rb
+chossing 4
+
+17-
+OverrideJRuby.rb
+
+18-
+OverrideJRuby.rb
+
+19-
+OverrideJRuby.rb
+
+20-
+OverrideJRuby.rb
+commenting this line:  derive = Derive.new
+
+21-
+InheritJRuby.rb
+
+22-
+InheritJRuby.rb
+
+23-
+monitor -jar jruby-complete-1.5.0.RC2.jar ClassJRubyExample.rb 
+Error opening script file: /home/hela/project/ClassJRubyExample.rb (No such file or directory)
+
+
+24-
+changing the code in InheritJRuby.rb to:
+
+# Creating and Using classes in JRuby
+
+class Employee
+    def information
+        puts "Name : Amit"
+        puts "Age : 21"
+        puts "Comapany : RoseIndia"
+    end
+    def salary
+         puts "First Name : Amit"
+         puts "Basic Scale : 12000-15000"
+         puts "Transport Allowance : 1500"
+         puts "Deductions : 2000"
+         puts "==========================="
+        puts "Total : 24000"
+     end
+end
+
+# creating new employee object
+      emp = Employee.new 
+
+# printing employee information
+     puts " Employee Information List"
+     puts "#{emp.information}"
+# printing employee salary
+     puts " Employee Salary"
+     puts "#{emp.salary}"
+
+25-
+JRubyForLoop.rb
+
+26-
+JRubyForLoop.rb
+
+27-
+JRubySwingHello.rb
+
+28-
+JRubySwingHello.rb
+
+29-
+JRubySwingHello.rb
+
+30-
+JRubySwingHello.rb
+
+31-
+JRubySwingHello.rb
+
+32-
+TreeSetExample.rb
+
+33-
+TreeSetExample.rb
+
+34-
+CommandLine.rb
+
+35-
+CommandLine.rb hello
+
+36-
+FileReaderExample.rb
+
+37-
+creating a file JRubyFile.txt and writing some text in this file.
+monitor -jar jruby-complete-1.5.0.RC2.jar FileReaderExample.rb
+
+38-
+FileReaderExample.rb
+
+39-
+FileReaderExample.rb
+
+40-
+FileReaderExample.rb
+finding an error.  if n = =0
+the space between two equals.
+
+41-
+FileReaderExample.rb
+
+42-
+FileReaderExample.rb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

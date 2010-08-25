@@ -1,0 +1,379 @@
+To generate the yml and log files, we have to creat .py file and compilate it:
+monitor -jar jython.jar hello.py
+
+1-
+creating a file hello.sh
+System.out.println("Hello world"); 
+
+2-
+changing the file contain:
+print("Hello world"); 
+
+3-
+backslash.py
+var = 10+9+8+7+6+\
+5+4+3+2+1
+print var
+
+4-
+hello.py
+print "Hello world"
+
+5-
+parens.py
+print ("this, " + 
+       "that, " + 
+       "the other thing.")
+
+6-
+triplequote.py 
+print """This is a triple-quoted string. 
+as " and ' are preserved in the string."""
+
+7-
+ (=> an error detected)
+fonction.py
+def foo():
+
+...     """This is an example doc string"""
+
+...      pass
+
+...
+
+>>> dir(foo)
+
+['__dict__', '__doc__', '__name__', 'func_closure', 'func_code',
+
+'func_defaults', 'func_doc', 'func_globals', 'func_name']
+
+>>> foo.__doc__
+
+'This is an example doc string'
+
+
+8-
+delete all the . (point)
+( => an error detected)
+fonction.py
+
+9-
+delete >
+(=> an error detected)
+fonction.py
+
+10-
+delete 
+>>> dir(foo)
+
+['__dict__', '__doc__', '__name__', 'func_closure', 'func_code',
+
+'func_defaults', 'func_doc', 'func_globals', 'func_name']
+
+>>> foo.__doc__
+
+'This is an example doc string'
+
+fonction.py
+
+11-
+add lines:
+dir(foo)
+
+['__dict__', '__doc__', '__name__', 'func_closure', 'func_code',
+
+'func_defaults', 'func_doc', 'func_globals', 'func_name']
+
+fonction.py
+
+12-
+add lines:
+foo.__doc__ 
+'This is an example doc string' 
+
+13-
+delete:
+def foo():
+
+ """This is an example doc string"""
+
+ pass
+and:
+foo.__doc__
+
+'This is an example doc string'
+
+14-
+=> an error  detected
+break.py
+for x in (1,2,3,4): 
+...    if x==3: 
+...        break 
+...    print x 
+
+15-
+delet alla the . (point)
+=> an error
+break.py
+
+16-
+Modifing the file.
+=> an error
+break.py
+for x in (1,2,3,4): 
+ if x==3: 
+  continue 
+ print x 
+
+17-
+
+Modifing the file.
+=> an error
+break.py
+for x in (1,2,3,4): 
+ if x==3: 
+ print x 
+
+18-
+new.py
+from javax.swing import *
+
+def hello(event):
+   print "Hello, world!"
+
+frame = JFrame("Hello Jython")
+
+button = JButton("Hello", actionPerformed = hello)
+frame.add(button)
+
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE)
+frame.setSize(300, 300)
+frame.show()
+
+19-
+class.py
+class Hello:
+   def __init__(self, name="John Doe"):
+      self.name = name
+
+   def greeting(self):
+      print "Hello, %s" % self.name
+
+jane = Hello("Jane Doe")
+joe = Hello("Joe")
+default = Hello()
+
+jane.greeting()
+joe.greeting()
+default.greeting()
+
+20-
+class1.py
+class Hello:
+   name = ""
+
+   def __init__(self, name="John Doe"):
+      Hello.name = name
+
+   def greeting(self):
+      print "Hello, %s" % Hello.name
+
+jane = Hello("Jane Doe")
+joe = Hello("Joe")
+default = Hello()
+
+jane.greeting()
+joe.greeting()
+default.greeting()
+
+21-
+variable.py
+class Hello:
+   def __init__(self):
+      self.hello = "Hello"
+
+class Goodbye:
+   def __init__(self):
+      self.goodbye = "Goodbye"
+
+class Greeter(Hello, Goodbye):
+   def __init__(self):
+      Hello.__init__(self)
+      Goodbye.__init__(self)
+
+   def printer(self):
+      print self.hello
+      print self.goodbye
+
+x = Greeter()
+x.printer()
+
+22-
+heritage.py
+class MyInterface:
+   def __init__(self):
+      if not hasattr(self, "myMethod"):
+         raise AttributeError("MyClass must implement myMethod")
+
+class MyClass(MyInterface):
+   def __init__(self):
+      MyInterface.__init__(self)
+
+23-
+comment.py
+# Comment: myMath "utility" class
+
+def square(x):
+   return x * x
+
+def cube(x):
+   return x * x * x
+
+22-
+Math.py
+=> an error
+import myMath
+x = myMath.square(5)
+y = myMath.cube(5)
+
+24-
+fonction.py
+=> an error import "i" missed.
+mport java.io.*;
+import java.util.*;
+import java.text.*;
+
+import org.python.util.PythonInterpreter;
+import org.python.core.*;
+
+public class Calculate {
+public static void main(String[] args){
+PythonInterpreter interp = new PythonInterpreter();
+interp.execfile("script1.py");
+PyFunction func =
+(PyFunction)interp.get("calculate",PyFunction.clas s);
+SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy hh.mm.ss");
+System.out.println("======[" + sdf.format(new Date()) +
+"]===========");
+for (int i=1 ; i<10000 ; ++i) {
+// Assuming calculate takes a float argument.
+func.__call__(new PyFloat(i));
+//interp.eval("calculate(" + i + ")");
+}
+System.out.println("======[" + sdf.format(new Date()) +
+"]===========");
+}
+}
+
+25-
+fixing the "import"
+
+=> an error 
+fonction.py
+
+26-
+=> an error (.*)
+fonction.py
+
+27-
+deleting .
+=> an error
+fonction.py
+
+28-
+deleting ;
+=> an error
+fonction.py
+
+29-
+executing new.py again.
+and prssing many times in the bottom.
+
+30-
+executing new.py again.
+
+31-
+executing class.py again.
+
+32-
+execution Lambada.py
+IOError: [Errno 2] File not found - /home/hela/project/jython2.5.1/Lambada.py (No such file or directory)
+
+33-
+finding error : >>>
+changing the location of the file: execution Lambada.py
+
+34-
+without modification: finding error >>>
+execution Lambada.py
+
+35-
+deleting >>>
+SyntaxError: no viable alternative at input '48'
+
+36-
+deleting 44 48 the space between this numbers.
+
+37-
+hela@hela-laptop:~/project/jython2.5.1$ monitor -jar jython.jar job.py
+SyntaxError: no viable alternative at character '?'
+
+38-
+executing job.py
+deleting ?
+SyntaxError: mismatched input '>>' expecting EOF
+
+38-
+deleting >>>
+IndentationError: unindent does not match any outer indentation level
+http://www.secnetix.de/olli/Python/dynamic_typing.hawk
+
+39-
+##
+## python/examples/sort1.py
+##                                         David MacKay
+
+### How to sort an array and keep track of which
+### item went where.
+
+a=[15,13,17,11]
+
+### First make a new list containing the items, and indices. 
+c=list( [ a[i],i ] for i in range (len(a)) )
+
+### c is:
+### [[15, 0], [13, 1], [17, 2], [11, 3]]
+
+c.sort()
+c
+### [[11, 3], [13, 1], [15, 0], [17, 2]]
+
+Comments = """
+Note that by default, sort will, if asked to compare
+two sets, use the first element in the set.
+
+For a good introduction to sort, see
+http://www.amk.ca/python/howto/sorting/sorting.html.
+"""
+
+
+
+
+
+
+Note:http://users.aims.ac.za/~mackay/python/examples/sort1.shtml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,129 @@
+1-
+zusamenführen/Extrahieren
+hinzufüng-> all type of file -> and then chosen a pdf file
+Visuelle seitenbearbeitung 
+öffnen -> chose a pdf doc,
+trying to manipulate the paper as much as you can, delete and restore, move up move down, Rotate right and links.
+zusamenführen/Extrahieren
+hinzufüng-> all type of file -> and then chosen a pdf file
+Visuelle seitenbearbeitung 
+witing hh/ in the ausgabedetai box to creat the out put file
+Ausführen (a new pop up will aprea so cliquing in Ja )
+zusamenführen/Extrahieren
+hh\jj -> Ausführen (a new pop up will aprea so cliquing in Ja )
+trying to movee up and down the pdf files;
+deleting and ->öfnen-> choosing an other one, and then
+hh\jj -> Ausführen (a new pop up will aprea so cliquing in Ja )
+/home/hela/hh/jj.pdf-> Ausführen (a new pop up will aprea so cliquing in Ja in the out will be /home/hela/jj.pdf)
+Visuelle Dokumentzusammenstellung
+Hinzufüng-> choosing a file
+closing
+
+2-
+Visuelle Dokumentzusammenstellung
+Hinzufüng-> choosing two file
+trying to mix paper from both document using:
+an den Anfang/ Ans End
+move up, down the pages , deleting, rotate pages.
+m -> Ausführen 
+closing
+
+3-
+Verschachteln
+Hinzufüng-> choosing two file
+move up, down the pages , deleting
+Hinzufüng-> choosing a file 
+check seitenreihenfolge des estern Dokument umkenhen
+l -> Ausführen 
+cliquing leer
+Hinzufüng-> choosing a file
+h -> Ausführen (a new pop up will aprea so cliquing in ok )
+Hinzufüng-> choosing a file -> Ausführen
+while is doing the traitement,
+cliquing in Teilen ->Hinzufüng-> choosing a file (a new pop up will aprea so cliquing in ok )
+check bei folgenderGöSse Teilen -> 500kb (in the selection list)
+chose Gleiches Verzeichnis wie Quelldatei
+dd-> Ausführen
+Drehen
+Hinzufüng-> choosing 5 files
+hello -> Ausführen
+Closing
+
+4-
+Einstellung -> changing the language. -> save
+closing
+
+5-
+Einstellung -> changing the language. (without save)
+closing
+
+6-
+Einstellung -> changing the language. -> save
+closing
+
+7-
+Einstellung -> changing the language. -> save
+closing
+
+8- closing
+
+9-
+Einstellung -> changing the language. -> save
+closing
+
+10-
+(language french)
+Agencement visuelle
+Hinzufüng-> choosing a file
+Hinzufüng-> choosing a file (popup window, clique in Ja)
+move up, down the pages , deleting, rotate pages.
+kk -> Ausführen
+closing
+
+11-
+(language french)
+Agencement visuelle
+Hinzufüng-> choosing a file
+choose the save (in the top links)
+then writing a name, and save
+closing
+
+12-
+(language french)
+composition visuel
+Hinzufüng-> choosing two files
+double clic in a page (it will be open)
+drog and drop pages in the work space.
+move up, down the pages , deleting, rotate pages.
+kk -> Ausführen
+closing
+
+13-
+(language french)
+composition visuel
+Hinzufüng-> choosing two files
+double clic in a page (it will be open)
+drog and drop pages in the work space.
+move up, down the pages , deleting, rotate pages.
+kk -> Ausführen
+closing
+
+14-
+open a PDF file in the "composition logiciel"
+adding some page, moving them
+
+15-
+open three PDF files in the "fusion".
+
+16-
+open a PDF file in the "rotation".
+
+17-
+opening closing
+
+
+
+
+
+
+
